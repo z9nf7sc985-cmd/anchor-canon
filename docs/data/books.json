@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "updated": "2026-10-05",
+  "note": "Catalog only. No scripture text is loaded. status empty for every entry.",
+  "books": [
+    {
+      "id": "genesis",
+      "title": "Genesis",
+      "section": "ethiopian",
+      "chapters": 50,
+      "status": "empty",
+      "notes": "Broader Ethiopian Orthodox canon stub"
+    },
+    {
+      "id": "exodus",
+      "title": "Exodus",
+      "section": "ethiopian",
+      "chapters": 40,
+      "status": "empty",
+      "notes": "Broader Ethiopian Orthodox canon stub"
+    },
+    {
+      "id": "psalms",
+      "title": "Psalms",
+      "section": "ethiopian",
+      "chapters": 150,
+      "status": "empty",
+      "notes": "Broader Ethiopian Orthodox canon stub"
+    },
+    {
+      "id": "isaiah",
+      "title": "Isaiah",
+      "section": "ethiopian",
+      "chapters": 66,
+      "status": "empty",
+      "notes": "Broader Ethiopian Orthodox canon stub"
+    },
+    {
+      "id": "matthew",
+      "title": "Matthew",
+      "section": "ethiopian",
+      "chapters": 28,
+      "status": "empty",
+      "notes": "Broader Ethiopian Orthodox canon stub"
+    },
+    {
+      "id": "revelation",
+      "title": "Revelation",
+      "section": "ethiopian",
+      "chapters": 22,
+      "status": "empty",
+      "notes": "Broader Ethiopian Orthodox canon stub"
+    },
+    {
+      "id": "1-enoch",
+      "title": "1 Enoch",
+      "section": "ethiopian",
+      "chapters": 108,
+      "status": "empty",
+      "notes": "Ethiopian Orthodox broader canon; text locked later from public-domain sources"
+    },
+    {
+      "id": "jubilees",
+      "title": "Jubilees",
+      "section": "ethiopian",
+      "chapters": 50,
+      "status": "empty",
+      "notes": "Ethiopian Orthodox broader canon stub"
+    },
+    {
+      "id": "tobit",
+      "title": "Tobit",
+      "section": "ethiopian",
+      "chapters": 14,
+      "status": "empty",
+      "notes": "Deuterocanonical stub in broader canon list"
+    },
+    {
+      "id": "judith",
+      "title": "Judith",
+      "section": "ethiopian",
+      "chapters": 16,
+      "status": "empty",
+      "notes": "Deuterocanonical stub in broader canon list"
+    },
+    {
+      "id": "wisdom",
+      "title": "Wisdom",
+      "section": "ethiopian",
+      "chapters": 19,
+      "status": "empty",
+      "notes": "Wisdom of Solomon stub"
+    },
+    {
+      "id": "sirach",
+      "title": "Sirach",
+      "section": "ethiopian",
+      "chapters": 51,
+      "status": "empty",
+      "notes": "Ecclesiasticus / Sirach stub"
+    },
+    {
+      "id": "baruch",
+      "title": "Baruch",
+      "section": "ethiopian",
+      "chapters": 6,
+      "status": "empty",
+      "notes": "Baruch stub (chapter count placeholder)"
+    },
+    {
+      "id": "1-maccabees",
+      "title": "1 Maccabees",
+      "section": "ethiopian",
+      "chapters": 16,
+      "status": "empty",
+      "notes": "1 Maccabees stub"
+    },
+    {
+      "id": "2-maccabees",
+      "title": "2 Maccabees",
+      "section": "ethiopian",
+      "chapters": 15,
+      "status": "empty",
+      "notes": "2 Maccabees stub"
+    },
+    {
+      "id": "3-maccabees",
+      "title": "3 Maccabees",
+      "section": "ethiopian",
+      "chapters": 7,
+      "status": "empty",
+      "notes": "3 Maccabees stub"
+    },
+    {
+      "id": "4-maccabees",
+      "title": "4 Maccabees",
+      "section": "ethiopian",
+      "chapters": 18,
+      "status": "empty",
+      "notes": "4 Maccabees stub"
+    },
+    {
+      "id": "ascension-of-isaiah",
+      "title": "Ascension of Isaiah",
+      "section": "ethiopian",
+      "chapters": 11,
+      "status": "empty",
+      "notes": "Optional broader-canon related stub"
+    },
+    {
+      "id": "1qs",
+      "title": "Community Rule (1QS)",
+      "section": "dss",
+      "chapters": 0,
+      "status": "empty",
+      "notes": "Dead Sea Scrolls manuscript stub; no verse text"
+    },
+    {
+      "id": "1qm",
+      "title": "War Scroll (1QM)",
+      "section": "dss",
+      "chapters": 0,
+      "status": "empty",
+      "notes": "Dead Sea Scrolls manuscript stub; no verse text"
+    },
+    {
+      "id": "1qh",
+      "title": "Thanksgiving Hymns (1QH)",
+      "section": "dss",
+      "chapters": 0,
+      "status": "empty",
+      "notes": "Dead Sea Scrolls manuscript stub; no verse text"
+    },
+    {
+      "id": "1qapgen",
+      "title": "Genesis Apocryphon (1QapGen)",
+      "section": "dss",
+      "chapters": 0,
+      "status": "empty",
+      "notes": "Dead Sea Scrolls manuscript stub; no verse text"
+    },
+    {
+      "id": "1qphab",
+      "title": "Habakkuk Pesher (1QpHab)",
+      "section": "dss",
+      "chapters": 0,
+      "status": "empty",
+      "notes": "Dead Sea Scrolls manuscript stub; no verse text"
+    }
+  ]
+}
