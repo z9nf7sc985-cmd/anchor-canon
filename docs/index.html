@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Anchor Canon — empty Bible reader shell for Ethiopian Orthodox, 1 Enoch, and Dead Sea Scrolls stubs. MeidasWell." />
+  <meta name="theme-color" content="#1a1410" />
+  <title>Anchor Canon</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to reader</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <h1>Anchor Canon</h1>
+        <p class="subtitle">Ethiopian Orthodox · 1 Enoch · Dead Sea Scrolls</p>
+        <p class="byline">MeidasWell · empty scaffold</p>
+      </div>
+      <label class="search-wrap" for="book-search">
+        <span class="visually-hidden">Filter books by title</span>
+        <input
+          id="book-search"
+          type="search"
+          placeholder="Filter book titles…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </label>
+    </div>
+  </header>
+
+  <nav class="section-nav" aria-label="Canon sections">
+    <button type="button" class="nav-btn is-active" data-section="ethiopian" aria-pressed="true">
+      Ethiopian Orthodox
+    </button>
+    <button type="button" class="nav-btn" data-section="dss" aria-pressed="false">
+      Dead Sea Scrolls
+    </button>
+    <button type="button" class="nav-btn" data-section="coincidence" aria-pressed="false">
+      Coincidence search
+    </button>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Book list">
+      <h2 class="sidebar-title" id="section-title">Ethiopian Orthodox</h2>
+      <p class="sidebar-hint" id="section-hint">Empty stubs. Text not loaded yet.</p>
+      <ul class="book-list" id="book-list" role="list"></ul>
+    </aside>
+
+    <main id="main" class="reader" tabindex="-1">
+      <div id="reader-home" class="reader-panel">
+        <h2>Welcome</h2>
+        <p>
+          This is an empty reader shell. Choose a book, then a chapter.
+          Scripture text is <strong>not loaded</strong>. Only public-domain
+          sources will be locked here later.
+        </p>
+        <ul class="home-points">
+          <li>Book catalog from <code>data/books.json</code></li>
+          <li>Chapter chips are placeholders</li>
+          <li>Coincidence search needs locked texts — coming later</li>
+          <li>No custom language model · no invented verse wording</li>
+        </ul>
+      </div>
+
+      <div id="reader-active" class="reader-panel is-hidden" hidden>
+        <header class="reader-head">
+          <h2 id="reader-book-title">—</h2>
+          <p class="reader-meta" id="reader-meta"></p>
+        </header>
+        <div class="chapter-chips" id="chapter-chips" role="group" aria-label="Chapters"></div>
+        <article class="reader-pane" id="reader-pane" aria-live="polite">
+          <p class="placeholder">
+            Text not loaded yet. Public-domain source will be locked here.
+          </p>
+        </article>
+      </div>
+
+      <div id="coincidence-panel" class="reader-panel is-hidden" hidden>
+        <h2>Coincidence search</h2>
+        <p class="coming-later">
+          Coming later. Needs locked public-domain texts.
+        </p>
+        <p>
+          When texts are locked under <code>data/</code>, search will run only
+          on those files. Title filter above searches book names only — not verses.
+        </p>
+        <div class="disabled-search" aria-disabled="true">
+          <input type="search" placeholder="Verse / phrase search — not available yet" disabled />
+          <button type="button" disabled>Search</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>MIT · empty scaffold · no trained model · sources TBD</p>
+    <p class="footer-sub">MeidasWell · Anchor Canon</p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
